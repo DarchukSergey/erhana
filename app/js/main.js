@@ -4,11 +4,19 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    dots: true,
-    
+    dots: true,    
     centerPadding: '150px',
-    dotsClass: 'result__slider-dots'
+    dotsClass: 'result__slider-dots',
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        infinite: true
+      },
+
+    }]
   });
+  
 });
 
 $(document).ready(function () {
