@@ -5,18 +5,28 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: false,
     dots: true,    
-    centerPadding: '150px',
+    centerPadding: '1px',
     dotsClass: 'result__slider-dots',
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        infinite: true
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          dots: true
+        }
       },
-
-    }]
-  });
-  
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll: 1,
+          dots: true,
+          centerPadding: '10px',
+        }
+      }
+    ]
+  });  
 });
 
 $(document).ready(function () {
@@ -28,6 +38,24 @@ $(document).ready(function () {
     dots: true,
     centerMode: true,
     centerPadding: '10px',
-    dotsClass: 'proof__slider-dots'
+    dotsClass: 'proof__slider-dots',
+     responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+        }
+      }
+    ]
   });
 });
