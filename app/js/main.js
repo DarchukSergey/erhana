@@ -19,7 +19,7 @@ $(document).ready(function () {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1.08,
           slidesToScroll: 1,
           dots: true,
           centerPadding: '10px',
@@ -35,8 +35,7 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    dots: true,
-    centerMode: true,
+    dots: true, 
     centerPadding: '10px',
     dotsClass: 'proof__slider-dots',
      responsive: [
@@ -51,7 +50,7 @@ $(document).ready(function () {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.08,
           slidesToScroll: 1,
           dots: true,
         }

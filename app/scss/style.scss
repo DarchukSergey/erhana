@@ -1462,7 +1462,7 @@
     }
 
     .option__card+.option__card {
-      margin:30px auto 0;
+      margin: 30px auto 0;
     }
 
 
@@ -1648,10 +1648,11 @@
     .option__title {
       font-size: 36px;
     }
-.option__card{
-    max-width: 450px;
-    margin: 0 auto;
-}
+
+    .option__card {
+      max-width: 450px;
+      margin: 0 auto;
+    }
 
     .proof__title {
       font-size: 36px;
@@ -1688,13 +1689,17 @@
   }
 
   @media (max-width: 440px) {
-    html, body{
+
+    html,
+    body {
       overflow-x: hidden;
     }
-    .container{
+
+    .container {
       padding: 0;
     }
-    .container-slider{
+
+    .container-slider {
       padding: 0;
     }
 
@@ -1703,7 +1708,7 @@
       max-width: 315px;
     }
 
-    .plan__image{
+    .plan__image {
       padding-left: 0;
     }
 
@@ -1732,9 +1737,9 @@
     }
 
     .header__main-image:after {
-      left: 45px;
+      left: 46px;
     }
-   
+
     .about__item {
       max-width: 100%;
       margin-right: 0;
@@ -1757,14 +1762,18 @@
       left: 25px;
     }
 
+    .result__slider-item {
+      margin-right: 21px;
+    }
+
     .management__image img {
       max-width: 354px;
-    width: 100%;
+      width: 100%;
     }
 
     .management__image:after {
       left: -1px;
-      top: 17px;
+      top: 45px;
     }
 
     .try__postscript::before {
@@ -1774,6 +1783,9 @@
     .try__inner {
       padding: 25px 10px 35px 20px;
     }
+    .option__card-btn {
+      padding: 13px 30px;
+    }
 
     .proof {
       margin-bottom: 80px;
@@ -1782,7 +1794,17 @@
     .footer__socials-image {
       padding: 11px;
     }
-    .result__slider-dots button, .proof__slider-dots button {
+
+    .result__slider-dots button,
+    .proof__slider-dots button {
       width: 40px;
-  }
+    }
+
+    .slick-list {
+      margin-bottom: 40px;
+    }
+
+    .proof__slider-image {
+      margin-right: 15px;
+    }
   }
